@@ -10,14 +10,14 @@ const initialState: TarefasState = {
   itens: [
     {
       id: 1,
-      titulo: 'Estudar JS',
+      titulo: 'Estudar JavaScript',
       descricao: 'Ler o livro',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.CONCLUIDA
     },
     {
       id: 2,
-      titulo: 'Estudar TS',
+      titulo: 'Estudar TypeScript',
       descricao: 'Rever aula 2',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.PENDENTE
